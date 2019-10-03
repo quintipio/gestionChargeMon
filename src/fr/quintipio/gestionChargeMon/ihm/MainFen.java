@@ -76,7 +76,7 @@ public class MainFen extends JFrame
 				connexion = new JMenuItem("Tenter une connexion é la base de donnée");
 				connexion.addActionListener(new EvenementJMenu(this));
 				fichier.add(connexion);
-				acceuil = new JMenuItem("Revenir é l'acceuil");
+				acceuil = new JMenuItem("Revenir é l'accueil");
 				acceuil.addActionListener(new EvenementJMenu(this));
 				fichier.add(acceuil);
 				quitter = new JMenuItem("Quitter");
